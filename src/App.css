@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #252B48;
+  color: #F7E987;
+}
+.flags{
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  min-height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.flags img{
+  width: 230px;
+  cursor: pointer;
+}
+
+
+
+h1{
+  text-align: center;
+}
+
+.qstn{
+  margin-top: 3em;
+  margin-bottom: -1em;
+}
+
+.flag{
+  color: #1B9C85;
+}
+
+.statement{
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.wins{
+  color: rgb(61, 235, 61)
+}
+.loses{
+  color: rgb(228, 27, 27)
+}
+
